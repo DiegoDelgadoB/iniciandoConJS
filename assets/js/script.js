@@ -26,3 +26,16 @@ console.log('la suma de los números es: ' + (numeroUno + numeroDos));
 // Este problema se corrige con el siguiente codigo:
 var numeroUno = parseInt(numeroUno);
 var numeroDos = parseInt(numeroDos);
+
+//operadores
+//aritméticos
+// + - / * %
+//comparación
+// < > <= <= != == === !==
+//caracteres
+
+//template string interpolación placeholder
+var nombre = prompt('Ingresa tu nombre');
+console.log('bienvenido ' + nombre);
+console.log(`bienvenido ${nombre}, que bueno que te sumaste al curso.`);
+
